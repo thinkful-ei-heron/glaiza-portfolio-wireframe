@@ -1,0 +1,49 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: Black;
+    padding: 1.875rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navigation {
+    background-color: gray;
+    padding: 1rem 10rem;
+    font-size: 1rem;
+    text-align: right;
+}
+
+
+#header {
+    background-color: lightgray;
+    padding: 5rem 10rem;
+    font-size: 1rem;
+}
+
+#section-about {
+    background-color: platinum;
+    padding: 5rem 10rem;
+    font-size: 2rem;
+}
+
+#section-projects {
+    background-color: silver;
+    padding: 5rem 10rem;
+    font-size: 2rem;
+}
